@@ -1,0 +1,62 @@
+body {
+    max-width: 496px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-color: #999;
+    height: 496px;
+    overflow-x: hidden;
+}
+
+.triangle {
+    position: absolute;
+    left: 405px;
+    top: 40px;
+    border: 91px solid transparent;
+    border-bottom: 91px solid tomato;
+    transform: rotate(135deg);
+
+}
+
+.circle {
+    position: absolute;
+    left: -120px;
+    top: -135px;
+    border: 200px solid green;
+    border-radius: 100%;
+}
+
+.smallCircle {
+    position: absolute;
+    left: 279px;
+    top: 169px;
+    border: 62px solid lightgreen;
+    border-radius: 100%;
+    z-index: 100;
+}
+
+.rectangle {
+    position: absolute;
+    top: 193px;
+    left: 50px;
+    transform: rotate(47deg);
+    width: 400px;
+    height: 60px;
+    background-color: blueviolet;
+}
+
+.rectangleWrap {
+    position: absolute;
+    /* bottom: 0; */
+    left: 60px;
+    top: 335px;
+    width: 375px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 40px;
+}
